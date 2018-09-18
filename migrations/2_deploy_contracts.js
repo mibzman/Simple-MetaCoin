@@ -1,5 +1,5 @@
-var MetaCoin = artifacts.require("./MetaCoin.sol");
+var Splitter = artifacts.require("./Splitter.sol");
 
 module.exports = function(deployer) {
-	deployer.deploy(MetaCoin);
+	deployer.deploy(Splitter);
 };

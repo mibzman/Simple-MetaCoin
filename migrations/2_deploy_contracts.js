@@ -1,22 +1,5 @@
-// Allows us to use ES6 in our migrations and tests.
-require("babel-register");
+var MetaCoin = artifacts.require("./MetaCoin.sol");
 
-var HDWalletProvider = require("truffle-hdwallet-provider");
-
-var mnemonic = "penumonic here";
-
-module.exports = {
-	networks: {
-		ropsten: {
-			provider: function() {
-				return new HDWalletProvider(
-					mnemonic,
-					"https://ropsten.infura.io/<code>",
-					0
-				);
-			},
-			gas: 2900000,
-			network_id: 3
-		}
-	}
+module.exports = function(deployer) {
+	deployer.deploy(MetaCoin);
 };

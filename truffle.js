@@ -1,5 +1,4 @@
 require("dotenv").config();
-require("babel-register");
 
 var HDWalletProvider = require("truffle-hdwallet-provider");
 

@@ -1,0 +1,27 @@
+{
+  "name": "simple-metacoin",
+  "version": "1.0.0",
+  "description": "## truffle 'MetaCoin' box without the library contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "truffle-hdwallet-provider": "0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mibzman/Simple-MetaCoin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mibzman/Simple-MetaCoin/issues"
+  },
+  "homepage": "https://github.com/mibzman/Simple-MetaCoin#readme"
+}
